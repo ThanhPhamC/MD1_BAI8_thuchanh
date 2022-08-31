@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .hv:hover{ background-color: #6af654;
+    }
+  </style>
+</head>
+<body>
+<!-----------------------------bai1 kiem tra nam nhuan ----------------------->
+<!--<h4 >Kiểm tra năm nhuận</h4>-->
+<!--<input id="nam" value="" ><button onclick="check()" >Check</button>-->
+<!--<h3>Kết quả: <p id="kq"></p></h3>-->
+<!--<h3> </h3>-->
+
+<!-----------------------------bai2 luyen tap cau truc if- else-------------------------->
+<!--<table border="1" >-->
+<!--  <tr>-->
+<!--    <td> Tên tài khoản</td>-->
+<!--    <td> Mật khẩu </td>-->
+<!--  </tr>-->
+<!--  <tr>-->
+<!--        <td  ><input class="hv" id="A" value="" placeholder="account" ></td>-->
+<!--        <td  ><input class="hv"  id="B" value="" placeholder="password " ></td>-->
+<!--  </tr>-->
+<!--  <tr>-->
+<!--    <td colspan="2" align="center" ><button onclick="check()" class="hv">Đăng nhập</button></td>-->
+<!--  </tr>-->
+<!--</table>-->
+
+<!-----------------------------bai3 luyen tap cau truc cấu trúc switch...case.-------------------------->
+
+<!-----------------------------bai 4 toan tu 3 ngoi-------------------------->
+<!--<table border="1"  >-->
+<!--  <tr><th colspan="2">Kiểm tra tổng nhỏ hơn 4</th></tr>-->
+<!--  <tr>-->
+<!--    <td  ><input class="hv" id="A" value="" placeholder="nhập số a" ></td>-->
+<!--    <td  ><input class="hv"  id="B" value="" placeholder="nhập số b " ></td>-->
+<!--  </tr>-->
+<!--  <tr>-->
+<!--    <td colspan="2" align="center" ><button onclick="check()" class="hv">Kiểm tra</button></td>-->
+<!--  </tr>-->
+<!--</table>-->
+<script>
+//   -------------------------------bai1 kiem tra nam nhuan --------------------------
+// function check() {
+//   let year = +document.getElementById("nam").value;
+//   if (year % 4 == 0) {
+//     if (year % 100 == 0) {
+//       if (year % 400 == 0) {
+//         document.getElementById("kq").innerHTML= year+" là năm nhuận" ;
+//       } else {
+//         document.getElementById("kq").innerHTML= year+" là năm nhuận" ;
+//       }
+//     } else {
+//       document.getElementById("kq").innerHTML= year+" là năm nhuận" ;
+//     }
+//   } else {
+//     document.getElementById("kq").innerHTML= year+" không là năm nhuận" ;
+//   }
+// }
+// -----------------------------bai2 luyen tap cau truc if- else------------------------
+// function check() {
+//   let a = document.getElementById("A").value;
+//   // alert("tai khoan la "+a);
+//   let b = document.getElementById("B").value;
+//   // alert("mat khau la "+b)
+//   let c = 'Admin';
+//   let d = "TheMaster";
+//   let e = null;
+//     if (a == c)
+//         ( b == d ) ? alert("Welcome"):(b==e=="")? alert(" Canceled"):alert("Wrong password");
+//     else if(a==e=="")
+//       alert("canceld")
+//     }
+// if(a!=c && a!=""){
+//   alert("i don't know you")
+// }
+
+// ----------------------------bai3 luyen tap cau truc switch...case.--------------------
+
+// let thanhpc= prompt("Nhap lua chon");
+// switch (thanhpc) {
+//   case "Edge":
+//     alert("You've got the Edge!");
+//   case "Chrome":
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert("Okay we support these browsers too");
+//     break;
+//   default:
+//     alert("We hope that this page looks ok!");
+// }
+
+//   -------------------------------bai 4toan tu 3 ngoi--------------------------
+
+// function check() {
+// let a= +document.getElementById("A").value;
+//   let b= +document.getElementById("B").value;
+//   (a + b == 0) ? alert("mời nhập a và b"): (a+b<4) ?  alert("Below"): alert("Over");
+// }
+</script>
+
+</body>
+</html>
