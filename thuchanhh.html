@@ -22,19 +22,19 @@
 <!--<h3> </h3>-->
 
 <!-----------------------------bai2 luyen tap cau truc if- else-------------------------->
-<!--<table border="1" >-->
-<!--  <tr>-->
-<!--    <td> Tên tài khoản</td>-->
-<!--    <td> Mật khẩu </td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--        <td  ><input class="hv" id="A" value="" placeholder="account" ></td>-->
-<!--        <td  ><input class="hv"  id="B" value="" placeholder="password " ></td>-->
-<!--  </tr>-->
-<!--  <tr>-->
-<!--    <td colspan="2" align="center" ><button onclick="check()" class="hv">Đăng nhập</button></td>-->
-<!--  </tr>-->
-<!--</table>-->
+<table border="1" >
+  <tr>
+    <td> Tên tài khoản</td>
+    <td> Mật khẩu </td>
+  </tr>
+  <tr>
+        <td  ><input class="hv" id="A" value="" placeholder="account" ></td>
+        <td  ><input class="hv"  id="B" value="" placeholder="password " ></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" ><button onclick="check()" class="hv">Đăng nhập</button></td>
+  </tr>
+</table>
 
 <!-----------------------------bai3 luyen tap cau truc cấu trúc switch...case.-------------------------->
 
@@ -68,22 +68,22 @@
 //   }
 // }
 // -----------------------------bai2 luyen tap cau truc if- else------------------------
-// function check() {
-//   let a = document.getElementById("A").value;
-//   // alert("tai khoan la "+a);
-//   let b = document.getElementById("B").value;
-//   // alert("mat khau la "+b)
-//   let c = 'Admin';
-//   let d = "TheMaster";
-//   let e = null;
-//     if (a == c)
-//         ( b == d ) ? alert("Welcome"):(b==e=="")? alert(" Canceled"):alert("Wrong password");
-//     else if(a==e=="")
-//       alert("canceld")
-//     }
-// if(a!=c && a!=""){
-//   alert("i don't know you")
-// }
+function check() {
+  let a = document.getElementById("A").value;
+  // alert("tai khoan la "+a);
+  let b = document.getElementById("B").value;
+  // alert("mat khau la "+b)
+  let c = 'Admin';
+  let d = "TheMaster";
+    if (a == c){
+      ( b == d ) ? alert("Welcome"):(b=="")? alert(" Canceled"): alert("Wrong password");}
+    else{if(a=="")
+    {alert("canceldeeee");}
+    else{alert("i don't know you");}
+    }}
+
+
+
 
 // ----------------------------bai3 luyen tap cau truc switch...case.--------------------
 
